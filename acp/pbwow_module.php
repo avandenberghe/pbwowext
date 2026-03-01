@@ -54,9 +54,9 @@ class pbwow_module extends admin
 
 		// Get the PBWoW extension version from the composer.json file
 		$ext_manager = $phpbb_container->get('ext.manager');
-		$ext_meta_manager = $ext_manager->create_extension_metadata_manager('paybas/pbwowext', $template);
-		$ext_meta_data = $ext_meta_manager->get_metadata('version');
-		$ext_version = isset($ext_meta_data) ? $ext_meta_data : '';
+		$ext_meta_data = $ext_manager->create_extension_metadata_manager('paybas/pbwowext')->get_metadata('all');
+		$ext_version_data = $ext_meta_data['version'] ?? '';
+		$ext_version = $ext_version_data;
 
 		// Get the PBWoW style version from the style.cfg file
 		$style_root = ($phpbb_root_path . 'styles/pbwow3/');
@@ -128,7 +128,7 @@ class pbwow_module extends admin
 		validate_config_vars($display_vars['vars'], $cfg_array, $error);
 
 		// Do not write values if there is an error
-		if (sizeof($error))
+		if (count($error))
 		{
 			$submit = false;
 		}
@@ -163,7 +163,7 @@ class pbwow_module extends admin
 				'L_TITLE'              => $user->lang[$display_vars['title']],
 				'L_TITLE_EXPLAIN'      => $title_explain,
 
-				'S_ERROR'              => (sizeof($error)) ? true : false,
+				'S_ERROR'              => (count($error)) ? true : false,
 				'ERROR_MSG'            => implode('<br />', $error),
 
 				'PBWOW_DBTABLE'        => $this->pbwow_config_table,
@@ -332,8 +332,7 @@ class pbwow_module extends admin
 		global $phpbb_container;
 
 		$manager = $phpbb_container->get('ext.manager');
-		$metadata_manager = $manager->create_extension_metadata_manager('paybas/pbwowext', $phpbb_container->get('template'));
-		$meta_data = $metadata_manager->get_metadata();
+		$meta_data = $manager->create_extension_metadata_manager('paybas/pbwowext')->get_metadata('all');
 		$versionurl = $meta_data['extra']['version-check']['protocol']. $meta_data['extra']['version-check']['host'].$meta_data['extra']['version-check']['directory'].'/'.$meta_data['extra']['version-check']['filename'];
 
 		//get latest productversion from cache
@@ -351,7 +350,7 @@ class pbwow_module extends admin
 
 			$response = $data['response'];
 			$latest_version = json_decode($response, true);
-			$latest_version_array = $latest_version['stable']['3.2'];
+			$latest_version_array = $latest_version['stable']['3.3'];
 
 			//put this info in the cache
 			$cache->put('pbwowext_versioncheck', $latest_version_array, $ttl);

@@ -1,5 +1,16 @@
 ## Changelog
 
+##### 3.3.0 01/03/2026
+- [FIX] Fix `\phpbb\db\tools\tools` type hint to `tools_interface` for phpBB 3.3 compatibility
+- [FIX] Replace deprecated `extract()` with explicit variable access in pbwowstyle
+- [FIX] Enable SSL certificate verification in cURL requests
+- [FIX] Fix CURLOPT_FOLLOWLOCATION syntax bug (comma instead of `=>`)
+- [FIX] Replace deprecated `sizeof()` with `count()`
+- [FIX] Fix deprecated `crin the repo, create a new branch eate_extension_metadata_manager()` usage
+- [NEW] Add `ext.php` version gate requiring phpBB 3.3.0+
+- [CHG] Minimum PHP version raised to 7.1.3
+- [CHG] Minimum phpBB version raised to 3.3.0
+
 ##### 3.2.8 07/07/2020
 - [FIX] support small rank icons.
 - [FIX] support phpBB 3.3

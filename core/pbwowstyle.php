@@ -12,7 +12,6 @@ namespace paybas\pbwowext\core;
 use phpbb\cache\service;
 use phpbb\config\config;
 use phpbb\db\driver\driver_interface;
-use phpbb\db\tools;
 use phpbb\event\dispatcher_interface;
 
 class pbwowstyle
@@ -26,7 +25,7 @@ class pbwowstyle
 	/** @var driver_interface */
 	protected $db;
 
-	/** @var tools */
+	/** @var \phpbb\db\tools\tools_interface */
 	protected $db_tools;
 
 	/** @var dispatcher_interface */
@@ -68,7 +67,7 @@ class pbwowstyle
 	 * @param \phpbb\config\config              $config
 	 * @param \phpbb\cache\service              $cache
 	 * @param \phpbb\db\driver\driver_interface $db
-	 * @param \phpbb\db\tools\tools             $db_tools
+	 * @param \phpbb\db\tools\tools_interface    $db_tools
 	 * @param \phpbb\event\dispatcher_interface $dispatcher
 	 * @param \phpbb\extension\manager          $extension_manager
 	 * @param \phpbb\template\template          $template
@@ -81,7 +80,7 @@ class pbwowstyle
 	public function __construct(config $config,
 		service $cache,
 		driver_interface $db,
-		\phpbb\db\tools\tools $db_tools,
+		\phpbb\db\tools\tools_interface $db_tools,
 		dispatcher_interface $dispatcher,
 		\phpbb\extension\manager $extension_manager,
 		\phpbb\template\template $template,
@@ -113,20 +112,34 @@ class pbwowstyle
 	{
 		$pbwow_config = $this->pbwow_config;
 
-		if (isset($pbwow_config) && is_array($pbwow_config))
-		{
-			extract($pbwow_config);
-		}
-		else
+		if (!isset($pbwow_config) || !is_array($pbwow_config))
 		{
 			return;
 		}
-		$logo_margins='';
+
+		$logo_enable = $pbwow_config['logo_enable'] ?? false;
+		$logo_src = $pbwow_config['logo_src'] ?? '';
+		$logo_size_width = $pbwow_config['logo_size_width'] ?? 0;
+		$logo_size_height = $pbwow_config['logo_size_height'] ?? 0;
+		$logo_margins = $pbwow_config['logo_margins'] ?? '';
+		$topbar_enable = $pbwow_config['topbar_enable'] ?? false;
+		$topbar_code = $pbwow_config['topbar_code'] ?? '';
+		$topbar_fixed = $pbwow_config['topbar_fixed'] ?? false;
+		$headerlinks_enable = $pbwow_config['headerlinks_enable'] ?? false;
+		$headerlinks_code = $pbwow_config['headerlinks_code'] ?? '';
+		$videobg_enable = $pbwow_config['videobg_enable'] ?? false;
+		$videobg_allpages = $pbwow_config['videobg_allpages'] ?? false;
+		$fixedbg = $pbwow_config['fixedbg'] ?? false;
+		$ads_index_enable = $pbwow_config['ads_index_enable'] ?? false;
+		$ads_index_code = $pbwow_config['ads_index_code'] ?? '';
+		$avatars_enable = $pbwow_config['avatars_enable'] ?? false;
+		$smallranks_enable = $pbwow_config['smallranks_enable'] ?? false;
+
 		$tpl_vars = array();
 		$body_class = ' pbwow-ext';
 
 		// Logo
-		if ($logo_enable && isset($logo_src) && isset($logo_size_width) && isset($logo_size_height) && $logo_size_width > 1 && $logo_size_height > 1)
+		if ($logo_enable && $logo_src && $logo_size_width > 1 && $logo_size_height > 1)
 		{
 			$tpl_vars += array(
 				'S_PBLOGO'          => true,
@@ -138,7 +151,7 @@ class pbwowstyle
 				'PBLOGO_MARGINS'    => $logo_margins,
 			);
 
-			if (isset($logo_margins) && strlen($logo_margins) > 0)
+			if (strlen($logo_margins) > 0)
 			{
 				$tpl_vars += array(
 					'PBLOGO_MARGINS' => $logo_margins,
@@ -147,7 +160,7 @@ class pbwowstyle
 		}
 
 		// Top-bar
-		if ($topbar_enable && isset($topbar_code))
+		if ($topbar_enable && $topbar_code)
 		{
 			$tpl_vars += array(
 				'TOPBAR_CODE' => str_replace('&', '&amp;', html_entity_decode($topbar_code)),
@@ -197,10 +210,10 @@ class pbwowstyle
 
 		// Misc
 		$tpl_vars += array(
-			'HEADERLINKS_CODE' 	    => ($headerlinks_enable && isset($headerlinks_code)) ? str_replace('&', '&amp;', html_entity_decode($headerlinks_code)) : false,
-			'ADS_INDEX_CODE' 	    => ($ads_index_enable && isset($ads_index_code)) ? str_replace('&', '&amp;', html_entity_decode($ads_index_code)) : false,
-			'S_PBWOW_AVATARS'	    => isset($avatars_enable) ? $avatars_enable : false,
-			'S_PBWOW_SMALL_RANKS' 	=> isset($smallranks_enable) ? $smallranks_enable : false,
+			'HEADERLINKS_CODE' 	    => ($headerlinks_enable && $headerlinks_code) ? str_replace('&', '&amp;', html_entity_decode($headerlinks_code)) : false,
+			'ADS_INDEX_CODE' 	    => ($ads_index_enable && $ads_index_code) ? str_replace('&', '&amp;', html_entity_decode($ads_index_code)) : false,
+			'S_PBWOW_AVATARS'	    => $avatars_enable,
+			'S_PBWOW_SMALL_RANKS' 	=> $smallranks_enable,
 		);
 
 		// Assign vars

@@ -2,9 +2,9 @@
     "name": "paybas/pbwowext",
     "type": "phpbb-extension",
     "description": "This extension enhances the pbWoW style",
-    "homepage": "https://github.com/Sajaki/pbwowext",
-    "version": "3.2.8",
-    "time": "2020-07-07",
+    "homepage": "https://github.com/avandenberghe/pbwowext",
+    "version": "3.3.0",
+    "time": "2026-03-01",
     "license": "GPL-2.0",
     "authors": [
         {
@@ -19,16 +19,16 @@
         }
     ],
     "require": {
-        "php": ">=5.5.0",
+        "php": ">=7.1.3",
         "composer/installers": "~1.0"
     },
     "require-dev": {
         "phpbb/epv": "dev-master"
     },
     "extra": {
-        "display-name": "PBWoW 3.2 Extension",
+        "display-name": "PBWoW 3.3 Extension",
         "soft-require": {
-            "phpbb/phpbb": ">=3.2"
+            "phpbb/phpbb": ">=3.3.0,<4.0.0@dev"
         },
         "version-check": {
             "protocol": "https://",

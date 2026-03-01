@@ -48,8 +48,8 @@ class admin
 					CURLOPT_URL => $url,
 					CURLOPT_HEADER => $return_Server_Response_Header,
 					CURLOPT_SSL_VERIFYHOST => 2,
-					CURLOPT_SSL_VERIFYPEER => false,  // Disabled SSL Cert checks
-					CURLOPT_FOLLOWLOCATION, true,
+					CURLOPT_SSL_VERIFYPEER => true,
+					CURLOPT_FOLLOWLOCATION => true,
 					CURLOPT_RETURNTRANSFER => true, //return web page
 				)
 			);
