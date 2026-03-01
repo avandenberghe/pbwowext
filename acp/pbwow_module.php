@@ -9,14 +9,12 @@
 
 namespace paybas\pbwowext\acp;
 
-use paybas\pbwowext\core\admin;
-
 /**
  * Class pbwow_module
  *
  * @package paybas\pbwowext\acp
  */
-class pbwow_module extends admin
+class pbwow_module
 {
 	public $u_action;
 
@@ -29,8 +27,8 @@ class pbwow_module extends admin
 	 */
 	public function main($id, $mode)
 	{
-		global $cache, $config, $request, $template, $user, $language;
-		global $phpbb_log, $phpbb_root_path, $table_prefix, $phpbb_container;
+		global $cache, $request, $template, $user;
+		global $phpbb_log, $table_prefix, $phpbb_container;
 
 		$this->tpl_name = 'acp_pbwow3';
 
@@ -38,7 +36,7 @@ class pbwow_module extends admin
 
 		$this->pbwow_config_table = $phpbb_container->getParameter('tables.pbwowext_config');
 
-		$dbokay = $new_config = $ext_version = false;
+		$dbokay = $new_config = false;
 
 		// if yes, check if the config table exists
 		// if yes, load the config variables
@@ -51,22 +49,6 @@ class pbwow_module extends admin
 				$new_config = $this->pbwow_config;
 			}
 		}
-
-		// Get the PBWoW extension version from the composer.json file
-		$ext_manager = $phpbb_container->get('ext.manager');
-		$ext_meta_data = $ext_manager->create_extension_metadata_manager('paybas/pbwowext')->get_metadata('all');
-		$ext_version_data = $ext_meta_data['version'] ?? '';
-		$ext_version = $ext_version_data;
-
-		// Get the PBWoW style version from the style.cfg file
-		$style_root = ($phpbb_root_path . 'styles/pbwow3/');
-		if (file_exists($style_root . 'style.cfg'))
-		{
-			$values = parse_cfg_file($style_root . 'style.cfg');
-			$style_version = (isset($values['style_version'])) ? $values['style_version'] : '';
-		}
-
-		$versions = $this->version_check($request->variable('versioncheck_force', false));
 
 		/**
 		 *    Config vars
@@ -171,48 +153,9 @@ class pbwow_module extends admin
 				'L_PBWOW_DB_GOOD'      => sprintf($user->lang['PBWOW_DB_GOOD'], $this->pbwow_config_table),
 				'L_PBWOW_DB_BAD'       => sprintf($user->lang['PBWOW_DB_BAD'], $this->pbwow_config_table),
 
-				'U_VERSIONCHECK_FORCE'  => append_sid($this->u_action . '&amp;versioncheck_force=1'),
-				'EXT_VERSION'           => $ext_version,
-				'STYLE_VERSION'         => $style_version,
-				'PBWOW_LATESTVERSION'   => $versions['current'],
-				'STYLE_LATESTVERSION'   => $versions['style_version'],
-
 				'U_ACTION'             => $this->u_action,
-
 			)
 		);
-
-		if (phpbb_version_compare($versions['current'], $ext_version, '='))
-		{
-			$template->assign_vars(array(	'S_PBWOW_OK'    => true));
-
-		}
-		else if (phpbb_version_compare($versions['current'],$ext_version, '>'))
-		{
-			// you have an old version
-			$template->assign_vars(array('S_PBWOW_OLD'    => true));
-		}
-		else
-		{
-			// you have a prerelease or development version
-			$template->assign_vars(array('S_PBWOW_PRERELEASE' => true));
-		}
-
-		if (phpbb_version_compare($versions['style_version'], $style_version, '='))
-		{
-			$template->assign_vars(array(	'S_STYLE_OK'    => true));
-
-		}
-		else if (phpbb_version_compare($versions['style_version'], $style_version, '>'))
-		{
-			// you have an old version
-			$template->assign_vars(array('S_STYLE_OLD'    => true));
-		}
-		else
-		{
-			// you have a prerelease or development version
-			$template->assign_vars(array('S_STYLE_PRERELEASE'    => true));
-		}
 
 		// Output relevant page
 		foreach ($display_vars['vars'] as $config_key => $vars)
@@ -318,49 +261,5 @@ class pbwow_module extends admin
 		}
 		$this->pbwow_config[$config_name] = $config_value;
 	}
-
-	/**
-	 * retrieve latest pbwow version
-	 *
-	 * @param  bool $force_update Ignores cached data. Defaults to false.
-	 * @param  int  $ttl          Cache version information for $ttl seconds. Defaults to 86400 (24 hours).
-	 * @return bool
-	 */
-	public final function version_check($force_update = false, $ttl = 86400)
-	{
-		global $user, $cache;
-		global $phpbb_container;
-
-		$manager = $phpbb_container->get('ext.manager');
-		$meta_data = $manager->create_extension_metadata_manager('paybas/pbwowext')->get_metadata('all');
-		$versionurl = $meta_data['extra']['version-check']['protocol']. $meta_data['extra']['version-check']['host'].$meta_data['extra']['version-check']['directory'].'/'.$meta_data['extra']['version-check']['filename'];
-
-		//get latest productversion from cache
-		$latest_version = $cache->get('pbwowext_versioncheck');
-
-		//if update is forced or cache expired then make the call to refresh latest productversion
-		if ($latest_version === false || $force_update)
-		{
-			$data = parent::curl($versionurl , false, false, false);
-			if (0 === count($data) )
-			{
-				$cache->destroy('pbwowext_versioncheck');
-				return false;
-			}
-
-			$response = $data['response'];
-			$latest_version = json_decode($response, true);
-			$latest_version_array = $latest_version['stable']['3.3'];
-
-			//put this info in the cache
-			$cache->put('pbwowext_versioncheck', $latest_version_array, $ttl);
-
-			$latest_version = $latest_version_array;
-		}
-
-		return $latest_version;
-	}
-
-
 
 }

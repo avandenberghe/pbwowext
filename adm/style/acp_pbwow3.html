@@ -26,31 +26,6 @@
 {% endif %}
 
 {% if S_DBOKAY %}
-<fieldset>
-	<legend>{{ lang('PBWOW_VERSION_CHECK') }}</legend>
-	<dl>
-		<dt><label>{{ lang('PBWOW_EXT_VERSION') }}</label></dt>
-		<dd>
-			<strong class="{% if S_PBWOW_OK %}success{% elseif S_PBWOW_OLD %}error{% else %}syntaxcomment{% endif %}">{{ EXT_VERSION }}</strong>
-			{% if not S_PBWOW_OK %}({{ lang('PBWOW_LATEST_VERSION') }}{{ lang('COLON') }} {{ PBWOW_LATESTVERSION }}){% endif %}
-		</dd>
-	</dl>
-	<dl>
-		<dt><label>{{ lang('PBWOW_STYLE_VERSION') }}</label></dt>
-		<dd>
-			<strong class="{% if S_STYLE_OK %}success{% elseif S_STYLE_OLD %}error{% else %}syntaxcomment{% endif %}">{{ STYLE_VERSION }}</strong>
-			{% if not S_STYLE_OK %}({{ lang('PBWOW_LATEST_STYLE_VERSION') }}{{ lang('COLON') }} {{ STYLE_LATESTVERSION }}){% endif %}
-		</dd>
-	</dl>
-	<dl>
-		<dt><p><small>{{ lang('PBWOW_CHECK_UPDATE') }}</small></p></dt>
-		<dd>{% if not PBWOW_LATESTVERSION %}<strong class="error">{{ lang('VERSIONCHECK_FAIL') }}</strong>{% endif %}
-			<a href="{{ U_VERSIONCHECK_FORCE }}">{{ lang('VERSIONCHECK_FORCE_UPDATE') }}</a></dd>
-	</dl>
-</fieldset>
-{% endif %}
-
-{% if S_DBOKAY %}
 <form id="acp_pbwow" method="post" action="{{ U_ACTION }}">
 	{% for options in loops.options %}
 	{% if options.S_LEGEND %}

@@ -50,18 +50,11 @@ $lang = array_merge($lang, array(
 	'LOG_PBWOW_CONFIG'			=> '<strong>Ajustes de PBWoW modificados</strong><br />&raquo; %s',
 
 
-
 	'PBWOW_DB_CHECK'					=> 'Verificación de la base de datos de PBWoW',
 	'PBWOW_DB_GOOD'						=> 'Tabla de configuración de PBWoW encontrada (%s)',
 	'PBWOW_DB_BAD'						=> 'No se encontró la tabla de configuración de PBWoW. Asegúrate de que la tabla (%s) exista en tu base de datos de phpBB.',
 	'PBWOW_DB_BAD_EXPLAIN'				=> 'Intenta desactivar y volver a activar la extensión PBWoW 3. Si eso no funciona, desactiva la extensión y elimina los datos. Luego intenta activarla de nuevo.',
 
-	'PBWOW_VERSION_CHECK'				=> 'Verificación de la versión de PBWoW',
-	'PBWOW_LATEST_VERSION'				=> 'Última versión',
-	'PBWOW_EXT_VERSION'					=> 'Versión de la extensión',
-	'PBWOW_STYLE_VERSION'				=> 'Versión del estilo',
-	'PBWOW_LATEST_STYLE_VERSION'		=> 'Última versión del estilo',
-	'PBWOW_CHECK_UPDATE'				=> 'Visita <a href="https://www.avathar.be/forum/index.php">avathar.be</a> para ver si hay actualizaciones disponibles.',
 
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
