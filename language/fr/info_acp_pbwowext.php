@@ -46,22 +46,10 @@ $lang = array_merge($lang, array(
 	// Extension requirements
 	'EXTENSION_REQUIRES_330'		=> 'Cette extension nécessite phpBB 3.3.0 ou supérieur.',
 
-	// Common
-	'PBWOW_ACTIVE'				=> 'actif',
-	'PBWOW_INACTIVE'			=> 'inactif',
-	'PBWOW_DETECTED'			=> 'détecté',
-	'PBWOW_NOT_DETECTED'		=> 'non détecté',
-	'PBWOW_OBSOLETE'			=> 'n’est plus utilisé',
-	'PBWOW_FLUSH'				=> 'Vider',
-	'PBWOW_FATAL'				=> 'Erreur fatale ! Cela ne devrait jamais arriver.',
 
 	'LOG_PBWOW_CONFIG'			=> '<strong>Paramètres de PBWoW modifiés</strong><br />&raquo; %s',
 
 
-	// OVERVIEW //
-	'PBWOW_OVERVIEW_TITLE'				=> 'Vue d’ensemble de l’extension PBWoW',
-	'PBWOW_OVERVIEW_TITLE_EXPLAIN'		=> 'Merci d’utiliser PBWoW, nous espérons que cela sera grandement apprécié.',
-	'ACP_PBWOW_INDEX_SETTINGS'			=> 'Informations générales',
 
 	'PBWOW_DB_CHECK'					=> 'Vérification de la base de données de PBWoW',
 	'PBWOW_DB_GOOD'						=> 'Table de configuration de PBWoW trouvée (%s)',
@@ -73,7 +61,6 @@ $lang = array_merge($lang, array(
 	'PBWOW_EXT_VERSION'					=> 'Version de l’extension',
 	'PBWOW_STYLE_VERSION'				=> 'Version du style',
 	'PBWOW_LATEST_STYLE_VERSION'		=> 'Dernière version du Style',
-	'PBWOW_VERSION_ERROR'				=> 'Impossible de déterminer la version !',
 	'PBWOW_CHECK_UPDATE'				=> 'Vérifie <a href="https://www.avathar.be/forum/index.php">avathar.be</a> s’il y a une mise à jour.',
 
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
