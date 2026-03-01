@@ -7,13 +7,12 @@ phpBB 3.3 Extension to enhance the PBWoW 3 style with additional functionality.
 3.3.0 01-03-2026
 
 ## Features
-- ACP module features:
-  - Compatibility and config check, to see if PBWoW 3 has been configured correctly
-  - Custom logo settings (enable/disable, url, size, margins)
-  - Custom header-bar (enable/disable, content, fixed to top)
-  - Custom header-box links (enable/disable, content)
-  - Video background settings (enable/disable, display on all pages or index only, fixed position)
-  - Index advertisement block (for Recent Topics extension)
+- ACP module with configurable settings:
+  - Custom logo (image path, dimensions, margins, responsive scaling)
+  - Top header-bar (custom HTML content, optional fixed positioning)
+  - Header-box custom links
+  - Video background (enable/disable, all pages or index only)
+  - Fixed background position
 
 #### Requirements
 - phpBB 3.3.0 or higher
