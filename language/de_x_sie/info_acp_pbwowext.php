@@ -91,7 +91,7 @@ $lang = array_merge($lang, array(
 
 	'PBWOW_VIDEOBG'						=> 'Einstellungen für (Video-)Hintergrund',
 	'PBWOW_VIDEOBG_ENABLE'				=> 'Animierte Video-Hintergründe aktivieren',
-	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'Einige PBWoW-Styles unterstützen spezielle animierte Video-Hintergründe (nicht alle). Sie können diese für einen besonderen Effekt aktivieren oder deaktivieren, um Bandbreite zu sparen (oder bei Problemen).',
+	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'Die folgenden PBWoW-Styles unterstützen animierte Video-Hintergründe: Battlecry, Diablo, Garrison, Heroes, Legion, Pandaria, TBC, Tribute, Warlords, WotLK und Xmas. Sie können diese für einen besonderen Effekt aktivieren oder deaktivieren, um Bandbreite zu sparen (oder bei Problemen).',
 	'PBWOW_VIDEOBG_ALLPAGES'			=> 'Video-Hintergründe auf allen Seiten anzeigen?',
 	'PBWOW_VIDEOBG_ALLPAGES_EXPLAIN'	=> 'Standardmäßig lädt PBWoW die Video-Hintergründe (falls verfügbar) nur auf <u>index.php</u>-Seiten. Sie können diese für alle Seiten aktivieren, was jedoch die Surfgeschwindigkeit Ihrer Besucher beeinträchtigen kann (die Server-Bandbreite wird in der Regel nicht beeinflusst, da die Videos lokal zwischengespeichert werden). [gilt nur, wenn Video aktiviert ist]',
 
@@ -102,5 +102,5 @@ $lang = array_merge($lang, array(
 	'PBWOW_ADS_INDEX_ENABLE'			=> 'Werbung auf der Index-Seite aktivieren',
 	'PBWOW_ADS_INDEX_ENABLE_EXPLAIN'	=> 'Durch die Aktivierung wird ein schmaler Werbeblock auf der Foren-Index-Seite angezeigt (erfordert die Erweiterung Recent Topics).',
 	'PBWOW_ADS_INDEX_CODE'				=> 'Code für die Index-Werbung',
-	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Dieser Block eignet sich für Werbung mit einer <u>Breite</u> von: <b>300px</b>.<br />Wenn Sie benutzerdefinierte CSS-Stile verwenden/ändern möchten, fügen Sie diese bitte in die Datei <samp>ext/paybas/pbwowext/styles/pbwow3/theme/pbwowext.css</samp> ein.',
+	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Dieser Block eignet sich für Werbung mit einer <u>Breite</u> von: <b>300px</b>.<br />Wenn Sie benutzerdefinierte CSS-Stile verwenden/ändern möchten, fügen Sie diese bitte in die Datei <samp>ext/paybas/pbwowext/styles/all/theme/pbwowext.css</samp> ein.',
 ));

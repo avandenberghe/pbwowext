@@ -56,8 +56,8 @@ $lang = array_merge($lang, array(
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
 	'PAYPAL_ALT'                        => 'Пожертвовать через PayPal',
-	'PBWOW_DONATE'						=> 'Пожертвовать на PBWoW',
-	'PBWOW_DONATE_SHORT'				=> 'Сделать пожертвование на PBWoW',
+	'PBWOW_DONATE'						=> 'Пожертвовать на Avathar.be',
+	'PBWOW_DONATE_SHORT'				=> 'Сделать пожертвование на Avathar.be',
 	'PBWOW_DONATE_EXPLAIN'				=> 'PBWoW является полностью бесплатным. Это хобби-проект, на который я трачу своё время и деньги, просто ради удовольствия. Если вам нравится PBWoW, пожалуйста, рассмотрите возможность сделать пожертвование. Я буду очень признателен. Без каких-либо обязательств.',
 
 	// CONFIG //
@@ -91,7 +91,7 @@ $lang = array_merge($lang, array(
 
 	'PBWOW_VIDEOBG'						=> 'Настройки фона (Видео)',
 	'PBWOW_VIDEOBG_ENABLE'				=> 'Включить анимированные видеофоны',
-	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'Некоторые стили PBWoW поддерживают специальные анимированные видеофоны (не все). Вы можете включить их для эффектного оформления или отключить для экономии трафика (или при возникновении проблем).',
+	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'Следующие стили PBWoW поддерживают анимированные видеофоны: Battlecry, Diablo, Garrison, Heroes, Legion, Pandaria, TBC, Tribute, Warlords, WotLK и Xmas. Вы можете включить их для эффектного оформления или отключить для экономии трафика (или при возникновении проблем).',
 	'PBWOW_VIDEOBG_ALLPAGES'			=> 'Отображать видеофоны на всех страницах',
 	'PBWOW_VIDEOBG_ALLPAGES_EXPLAIN'	=> 'По умолчанию PBWoW загружает видеофоны (если доступны) только на страницах <u>index.php</u>. Вы можете включить их для всех страниц, но это может повлиять на скорость просмотра для ваших посетителей (но, как правило, не на пропускную способность сервера, так как они кэшируются локально). [применяется только при включённом видео]',
 	'PBWOW_FIXEDBG'						=> 'Фиксированное положение фона',
@@ -101,5 +101,5 @@ $lang = array_merge($lang, array(
 	'PBWOW_ADS_INDEX_ENABLE'			=> 'Включить рекламу на главной странице',
 	'PBWOW_ADS_INDEX_ENABLE_EXPLAIN'	=> 'Включение этой опции создаст узкий рекламный блок на главной странице форума (требуется расширение Recent Topics).',
 	'PBWOW_ADS_INDEX_CODE'				=> 'Код рекламного блока на главной странице',
-	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Этот блок подходит для рекламных объявлений с <u>шириной</u>: <b>300px</b>.<br />Если вы хотите использовать/изменить пользовательские CSS-стили, добавьте их в файл <samp>ext/paybas/pbwowext/styles/pbwow3/theme/pbwowext.css</samp>',
+	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Этот блок подходит для рекламных объявлений с <u>шириной</u>: <b>300px</b>.<br />Если вы хотите использовать/изменить пользовательские CSS-стили, добавьте их в файл <samp>ext/paybas/pbwowext/styles/all/theme/pbwowext.css</samp>',
 ));

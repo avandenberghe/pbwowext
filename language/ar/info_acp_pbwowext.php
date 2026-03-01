@@ -56,8 +56,8 @@ $lang = array_merge($lang, array(
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
 	'PAYPAL_ALT'                        => 'تبرع عبر PayPal',
-	'PBWOW_DONATE'						=> 'تبرع لـ PBWoW',
-	'PBWOW_DONATE_SHORT'				=> 'قدّم تبرعاً لـ PBWoW',
+	'PBWOW_DONATE'						=> 'تبرع لـ Avathar.be',
+	'PBWOW_DONATE_SHORT'				=> 'قدّم تبرعاً لـ Avathar.be',
 	'PBWOW_DONATE_EXPLAIN'				=> 'PBWoW مجاني 100%. إنه مشروع هواية أقضي فيه وقتي ومالي، فقط من أجل المتعة. إذا كنت تستمتع باستخدام PBWoW، يرجى التفكير في تقديم تبرع. سأكون ممتناً حقاً. بدون أي التزامات.',
 
 	// CONFIG //
@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 
 	'PBWOW_VIDEOBG'						=> 'إعدادات الخلفية (فيديو)',
 	'PBWOW_VIDEOBG_ENABLE'				=> 'تفعيل خلفيات الفيديو المتحركة',
-	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'تدعم بعض أنماط PBWoW خلفيات فيديو متحركة خاصة (ليس جميعها). يمكنك تفعيلها للحصول على تأثير رائع، أو تعطيلها لتوفير عرض النطاق الترددي (أو في حال واجهت مشاكل).',
+	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'تدعم أنماط PBWoW التالية خلفيات فيديو متحركة: Battlecry، Diablo، Garrison، Heroes، Legion، Pandaria، TBC، Tribute، Warlords، WotLK، وXmas. يمكنك تفعيلها للحصول على تأثير رائع، أو تعطيلها لتوفير عرض النطاق الترددي (أو في حال واجهت مشاكل).',
 	'PBWOW_VIDEOBG_ALLPAGES'			=> 'عرض خلفيات الفيديو في جميع الصفحات؟',
 	'PBWOW_VIDEOBG_ALLPAGES_EXPLAIN'	=> 'افتراضياً، يقوم PBWoW بتحميل خلفيات الفيديو (إن توفرت) فقط في صفحات <u>index.php</u>. يمكنك تفعيلها لجميع الصفحات، لكن هذا قد يؤثر على سرعة التصفح لدى زوارك (لكن بشكل عام ليس على عرض النطاق الترددي لخادمك، لأنها تُخزَّن مؤقتاً محلياً). [ينطبق فقط إذا كان الفيديو مفعّلاً]',
 
@@ -101,5 +101,5 @@ $lang = array_merge($lang, array(
 	'PBWOW_ADS_INDEX_ENABLE'			=> 'تفعيل الإعلان على الصفحة الرئيسية',
 	'PBWOW_ADS_INDEX_ENABLE_EXPLAIN'	=> 'سيؤدي تفعيل هذا إلى إنشاء كتلة إعلانية ضيقة على صفحة فهرس المنتدى (تتطلب إضافة المواضيع الأخيرة).',
 	'PBWOW_ADS_INDEX_CODE'				=> 'كود الإعلان على الصفحة الرئيسية',
-	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'هذه الكتلة مناسبة للإعلانات بـ<u>عرض</u>: <b>300px</b>.<br />إذا كنت ترغب في استخدام/تغيير تنسيق CSS مخصص، يرجى إضافته إلى <samp>ext/paybas/pbwowext/styles/pbwow3/theme/pbwowext.css</samp>',
+	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'هذه الكتلة مناسبة للإعلانات بـ<u>عرض</u>: <b>300px</b>.<br />إذا كنت ترغب في استخدام/تغيير تنسيق CSS مخصص، يرجى إضافته إلى <samp>ext/paybas/pbwowext/styles/all/theme/pbwowext.css</samp>',
 ));

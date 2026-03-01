@@ -48,8 +48,8 @@ $lang = array_merge($lang, array(
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
 	'PAYPAL_ALT'                        => 'Donate using PayPal',
-	'PBWOW_DONATE'						=> 'Donate to PBWoW',
-	'PBWOW_DONATE_SHORT'				=> 'Make a donation to PBWoW',
+	'PBWOW_DONATE'						=> 'Donate to Avathar.be',
+	'PBWOW_DONATE_SHORT'				=> 'Make a donation to Avathar.be',
 	'PBWOW_DONATE_EXPLAIN'				=> 'PBWoW is 100% free. It is a hobby project that I am spending my time and money on, just for the fun of it. If you enjoy using PBWoW, please consider making a donation. I would really appreciate it. No strings attached.',
 
 	// CONFIG //
@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 
 	'PBWOW_VIDEOBG'						=> '(Video) Background Settings',
 	'PBWOW_VIDEOBG_ENABLE'				=> 'Enable animated video backgrounds',
-	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'Some PBWoW styles support special animated video backgrounds (not all). You can enable these for cool effect, or disable them to save bandwidth (or if you are having problems).',
+	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'The following PBWoW styles support animated video backgrounds: Battlecry, Diablo, Garrison, Heroes, Legion, Pandaria, TBC, Tribute, Warlords, WotLK, and Xmas. You can enable these for cool effect, or disable them to save bandwidth (or if you are having problems).',
 	'PBWOW_VIDEOBG_ALLPAGES'			=> 'Display video backgrounds on all pages?',
 	'PBWOW_VIDEOBG_ALLPAGES_EXPLAIN'	=> 'By default, PBWoW only loads the video backgrounds (if available) on <u>index.php</u> pages. You can enable them for all pages, but this may affect the browsing speed of your visitors (but in general not your server bandwidth, because they are cached locally). [only applies if video is enabled]',
 
@@ -93,5 +93,5 @@ $lang = array_merge($lang, array(
 	'PBWOW_ADS_INDEX_ENABLE'			=> 'Enable index advertisement',
 	'PBWOW_ADS_INDEX_ENABLE_EXPLAIN'	=> 'Enabling this ad will generate a narrow advertisement block on the forum index page (requires Recent Topics extension).',
 	'PBWOW_ADS_INDEX_CODE'				=> 'Index advertisement code',
-	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'This block is suitable for advertisements with a <u>width</u> of: <b>300px</b>.<br />If you want to use/change custom CSS styling, please add it to <samp>ext/paybas/pbwowext/styles/pbwow3/theme/pbwowext.css</samp>',
+	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'This block is suitable for advertisements with a <u>width</u> of: <b>300px</b>.<br />If you want to use/change custom CSS styling, please add it to <samp>ext/paybas/pbwowext/styles/all/theme/pbwowext.css</samp>',
 ));

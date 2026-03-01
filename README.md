@@ -13,6 +13,7 @@ phpBB 3.3 Extension to enhance the PBWoW 3 style with additional functionality.
   - Header-box custom links
   - Video background (enable/disable, all pages or index only)
   - Fixed background position
+  - Index advertisement block (requires Recent Topics extension)
 
 #### Requirements
 - phpBB 3.3.0 or higher

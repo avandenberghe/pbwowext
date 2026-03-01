@@ -56,8 +56,8 @@ $lang = array_merge($lang, array(
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
 	'PAYPAL_ALT'                        => 'Donation PayPal',
-	'PBWOW_DONATE'						=> 'Faire un don à PBWoW',
-	'PBWOW_DONATE_SHORT'				=> 'Faire un don à PBWoW',
+	'PBWOW_DONATE'						=> 'Faire un don à Avathar.be',
+	'PBWOW_DONATE_SHORT'				=> 'Faire un don à Avathar.be',
 	'PBWOW_DONATE_EXPLAIN'				=> 'PBWoW est 100% libre. ce projet est un passe-temps où je consacre mon temps et mon argent, juste pour le plaisir. Si l’extension PBWoW est appréciée, il est possible de réaliser un don. Il sera grandement apprécié. Sans contrepartie.',
 
 	// CONFIG //
@@ -91,7 +91,7 @@ $lang = array_merge($lang, array(
 
 	'PBWOW_VIDEOBG'						=> 'Paramètre de l’arrière plan (Vidéo)',
 	'PBWOW_VIDEOBG_ENABLE'				=> 'Activer les arrières plans vidéo animés',
-	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'Permet d’activer les arrière-plans vidéo animés. Certains styles de PBWoW supportent des arrières plans vidéo animés (pas tous). Il est possible d’activer ces derniers pour un rendu original, ou les désactiver pour économiser de la bande passante (ou si des problèmes sont constatés).',
+	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'Les styles PBWoW suivants prennent en charge les arrière-plans vidéo animés : Battlecry, Diablo, Garrison, Heroes, Legion, Pandaria, TBC, Tribute, Warlords, WotLK et Xmas. Vous pouvez les activer pour un rendu original, ou les désactiver pour économiser de la bande passante (ou si des problèmes sont constatés).',
 	'PBWOW_VIDEOBG_ALLPAGES'			=> 'Afficher les arrières plans vidéo sur toutes les pages',
 	'PBWOW_VIDEOBG_ALLPAGES_EXPLAIN'	=> 'Permet d’afficher les arrière-plans vidéo sur toutes les pages du forum. Par défaut, PBWoW charge seulement les arrières plans vidéo (si disponibles) sur la page <u>index.php</u>. Il est possible d’étendre l’affichage des arrières plans vidéo sur toutes les pages, mais cela peut affecter la vitesse de navigation de des visiteurs (pas la bande passante de du serveur, car ils sont mis en cache localement). [ne s’applique que si la vidéo est activée]',
 	'PBWOW_FIXEDBG'						=> 'Fixer la position de l’arrière plan',

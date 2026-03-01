@@ -56,8 +56,8 @@ $lang = array_merge($lang, array(
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
 	'PAYPAL_ALT'                        => 'Prispejte cez PayPal',
-	'PBWOW_DONATE'						=> 'Prispejte na PBWoW',
-	'PBWOW_DONATE_SHORT'				=> 'Prispejte na PBWoW',
+	'PBWOW_DONATE'						=> 'Prispejte na Avathar.be',
+	'PBWOW_DONATE_SHORT'				=> 'Prispejte na Avathar.be',
 	'PBWOW_DONATE_EXPLAIN'				=> 'PBWoW je 100% zadarmo. Je to hobby projekt, ktorému venujem svoj čas a peniaze, len tak pre radosť. Ak sa vám PBWoW páči, zvážte prosím príspevok. Naozaj by som si to vážil. Bez akýchkoľvek záväzkov.',
 
 	// CONFIG //
@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 
 	'PBWOW_VIDEOBG'						=> 'Nastavenia pozadia (video)',
 	'PBWOW_VIDEOBG_ENABLE'				=> 'Povoliť animované video pozadia',
-	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'Niektoré štýly PBWoW podporujú špeciálne animované video pozadia (nie všetky). Môžete ich povoliť pre skvelý efekt, alebo zakázať na úsporu prenosového pásma (alebo ak máte problémy).',
+	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'Nasledujúce štýly PBWoW podporujú animované video pozadia: Battlecry, Diablo, Garrison, Heroes, Legion, Pandaria, TBC, Tribute, Warlords, WotLK a Xmas. Môžete ich povoliť pre skvelý efekt, alebo zakázať na úsporu prenosového pásma (alebo ak máte problémy).',
 	'PBWOW_VIDEOBG_ALLPAGES'			=> 'Zobraziť video pozadia na všetkých stránkach?',
 	'PBWOW_VIDEOBG_ALLPAGES_EXPLAIN'	=> 'Štandardne PBWoW načítava video pozadia (ak sú k dispozícii) iba na stránkach <u>index.php</u>. Môžete ich povoliť pre všetky stránky, ale to môže ovplyvniť rýchlosť prehliadania vašich návštevníkov (vo všeobecnosti však nie šírku pásma vášho servera, pretože sú ukladané lokálne do vyrovnávacej pamäte). [platí iba ak je video povolené]',
 
@@ -101,5 +101,5 @@ $lang = array_merge($lang, array(
 	'PBWOW_ADS_INDEX_ENABLE'			=> 'Povoliť reklamu na indexe',
 	'PBWOW_ADS_INDEX_ENABLE_EXPLAIN'	=> 'Povolením sa na stránke indexu fóra vygeneruje úzky reklamný blok (vyžaduje rozšírenie Nedávne témy).',
 	'PBWOW_ADS_INDEX_CODE'				=> 'Kód reklamy na indexe',
-	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Tento blok je vhodný pre reklamy so <u>šírkou</u>: <b>300px</b>.<br />Ak chcete použiť/zmeniť vlastné CSS štýly, pridajte ich prosím do <samp>ext/paybas/pbwowext/styles/pbwow3/theme/pbwowext.css</samp>',
+	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Tento blok je vhodný pre reklamy so <u>šírkou</u>: <b>300px</b>.<br />Ak chcete použiť/zmeniť vlastné CSS štýly, pridajte ich prosím do <samp>ext/paybas/pbwowext/styles/all/theme/pbwowext.css</samp>',
 ));

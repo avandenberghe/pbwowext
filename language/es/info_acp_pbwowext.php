@@ -48,8 +48,8 @@ $lang = array_merge($lang, array(
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
 	'PAYPAL_ALT'                        => 'Donar mediante PayPal',
-	'PBWOW_DONATE'						=> 'Donar a PBWoW',
-	'PBWOW_DONATE_SHORT'				=> 'Realizar una donación a PBWoW',
+	'PBWOW_DONATE'						=> 'Donar a Avathar.be',
+	'PBWOW_DONATE_SHORT'				=> 'Realizar una donación a Avathar.be',
 	'PBWOW_DONATE_EXPLAIN'				=> 'PBWoW es 100% gratuito. Es un proyecto personal en el que invierto mi tiempo y dinero, simplemente por diversión. Si disfruta usando PBWoW, considere realizar una donación. Se lo agradecería mucho. Sin compromiso alguno.',
 
 	// CONFIG //
@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 
 	'PBWOW_VIDEOBG'						=> 'Configuración de fondo (vídeo)',
 	'PBWOW_VIDEOBG_ENABLE'				=> 'Activar fondos de vídeo animados',
-	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'Algunos estilos de PBWoW admiten fondos de vídeo animados especiales (no todos). Puede activarlos para obtener un efecto atractivo, o desactivarlos para ahorrar ancho de banda (o si tiene problemas).',
+	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'Los siguientes estilos de PBWoW admiten fondos de vídeo animados: Battlecry, Diablo, Garrison, Heroes, Legion, Pandaria, TBC, Tribute, Warlords, WotLK y Xmas. Puede activarlos para obtener un efecto atractivo, o desactivarlos para ahorrar ancho de banda (o si tiene problemas).',
 	'PBWOW_VIDEOBG_ALLPAGES'			=> '¿Mostrar fondos de vídeo en todas las páginas?',
 	'PBWOW_VIDEOBG_ALLPAGES_EXPLAIN'	=> 'De forma predeterminada, PBWoW solo carga los fondos de vídeo (si están disponibles) en las páginas de <u>index.php</u>. Puede activarlos para todas las páginas, pero esto puede afectar la velocidad de navegación de sus visitantes (aunque en general no el ancho de banda de su servidor, porque se almacenan en caché localmente). [solo se aplica si el vídeo está activado]',
 
@@ -93,5 +93,5 @@ $lang = array_merge($lang, array(
 	'PBWOW_ADS_INDEX_ENABLE'			=> 'Activar publicidad en el índice',
 	'PBWOW_ADS_INDEX_ENABLE_EXPLAIN'	=> 'Al activar esta publicidad, se generará un bloque de publicidad estrecho en la página del índice del foro (requiere la extensión Recent Topics).',
 	'PBWOW_ADS_INDEX_CODE'				=> 'Código de publicidad del índice',
-	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Este bloque es adecuado para publicidad con un <u>ancho</u> de: <b>300px</b>.<br />Si desea usar o cambiar estilos CSS personalizados, añádalos a <samp>ext/paybas/pbwowext/styles/pbwow3/theme/pbwowext.css</samp>',
+	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Este bloque es adecuado para publicidad con un <u>ancho</u> de: <b>300px</b>.<br />Si desea usar o cambiar estilos CSS personalizados, añádalos a <samp>ext/paybas/pbwowext/styles/all/theme/pbwowext.css</samp>',
 ));

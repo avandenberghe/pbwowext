@@ -48,8 +48,8 @@ $lang = array_merge($lang, array(
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
 	'PAYPAL_ALT'                        => 'Donera via PayPal',
-	'PBWOW_DONATE'						=> 'Donera till PBWoW',
-	'PBWOW_DONATE_SHORT'				=> 'Ge en donation till PBWoW',
+	'PBWOW_DONATE'						=> 'Donera till Avathar.be',
+	'PBWOW_DONATE_SHORT'				=> 'Ge en donation till Avathar.be',
 	'PBWOW_DONATE_EXPLAIN'				=> 'PBWoW är 100% gratis. Det är ett hobbyprojekt som jag lägger min tid och mina pengar på, bara för nöjes skull. Om du tycker om att använda PBWoW, vänligen överväg att ge en donation. Jag skulle verkligen uppskatta det. Inga villkor.',
 
 	// CONFIG //
@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 
 	'PBWOW_VIDEOBG'						=> 'Bakgrundsinställningar (video)',
 	'PBWOW_VIDEOBG_ENABLE'				=> 'Aktivera animerade videobakgrunder',
-	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'Vissa PBWoW-stilar stöder speciella animerade videobakgrunder (inte alla). Du kan aktivera dessa för en häftig effekt, eller inaktivera dem för att spara bandbredd (eller om du har problem).',
+	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'Följande PBWoW-stilar stöder animerade videobakgrunder: Battlecry, Diablo, Garrison, Heroes, Legion, Pandaria, TBC, Tribute, Warlords, WotLK och Xmas. Du kan aktivera dessa för en häftig effekt, eller inaktivera dem för att spara bandbredd (eller om du har problem).',
 	'PBWOW_VIDEOBG_ALLPAGES'			=> 'Visa videobakgrunder på alla sidor?',
 	'PBWOW_VIDEOBG_ALLPAGES_EXPLAIN'	=> 'Som standard laddar PBWoW bara videobakgrunder (om tillgängliga) på <u>index.php</u>-sidor. Du kan aktivera dem för alla sidor, men detta kan påverka dina besökares surfhastighet (men generellt inte din servers bandbredd, eftersom de cachas lokalt). [gäller bara om video är aktiverat]',
 
@@ -93,5 +93,5 @@ $lang = array_merge($lang, array(
 	'PBWOW_ADS_INDEX_ENABLE'			=> 'Aktivera annons på indexsidan',
 	'PBWOW_ADS_INDEX_ENABLE_EXPLAIN'	=> 'Aktivering av denna annons genererar ett smalt annonsblock på forumets indexsida (kräver tillägget Senaste ämnen).',
 	'PBWOW_ADS_INDEX_CODE'				=> 'Annonskod för indexsidan',
-	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Detta block är lämpligt för annonser med en <u>bredd</u> på: <b>300px</b>.<br />Om du vill använda/ändra anpassad CSS-styling, vänligen lägg till det i <samp>ext/paybas/pbwowext/styles/pbwow3/theme/pbwowext.css</samp>',
+	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Detta block är lämpligt för annonser med en <u>bredd</u> på: <b>300px</b>.<br />Om du vill använda/ändra anpassad CSS-styling, vänligen lägg till det i <samp>ext/paybas/pbwowext/styles/all/theme/pbwowext.css</samp>',
 ));

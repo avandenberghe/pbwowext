@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 
 	'PBWOW_VIDEOBG'						=> '(Video-)Hintergrund-Einstellungen',
 	'PBWOW_VIDEOBG_ENABLE'				=> 'Animierte Videohintergründe aktivieren',
-	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'Einige PBWoW-Styles unterstützen spezielle animierte Videohintergründe (nicht alle). Du kannst diese für einen tollen Effekt aktivieren oder deaktivieren, um Bandbreite zu sparen (oder bei Problemen).',
+	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'Die folgenden PBWoW-Styles unterstützen animierte Videohintergründe: Battlecry, Diablo, Garrison, Heroes, Legion, Pandaria, TBC, Tribute, Warlords, WotLK und Xmas. Du kannst diese für einen tollen Effekt aktivieren oder deaktivieren, um Bandbreite zu sparen (oder bei Problemen).',
 	'PBWOW_VIDEOBG_ALLPAGES'			=> 'Videohintergründe auf allen Seiten anzeigen?',
 	'PBWOW_VIDEOBG_ALLPAGES_EXPLAIN'	=> 'Standardmäßig lädt PBWoW die Videohintergründe (falls verfügbar) nur auf <u>index.php</u>-Seiten. Du kannst sie für alle Seiten aktivieren, aber dies kann die Surfgeschwindigkeit deiner Besucher beeinträchtigen (in der Regel jedoch nicht die Serverbandbreite, da sie lokal zwischengespeichert werden). [gilt nur, wenn Video aktiviert ist]',
 
@@ -81,5 +81,5 @@ $lang = array_merge($lang, array(
 	'PBWOW_ADS_INDEX_ENABLE'			=> 'Index-Werbung aktivieren',
 	'PBWOW_ADS_INDEX_ENABLE_EXPLAIN'	=> 'Durch Aktivierung wird ein schmaler Werbeblock auf der Foren-Indexseite erzeugt (erfordert die Erweiterung Recent Topics).',
 	'PBWOW_ADS_INDEX_CODE'				=> 'Index-Werbungscode',
-	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Dieser Block ist für Werbung mit einer <u>Breite</u> von <b>300px</b> geeignet.<br />Wenn du benutzerdefinierte CSS-Stile verwenden/ändern möchtest, füge diese bitte in <samp>ext/paybas/pbwowext/styles/pbwow3/theme/pbwowext.css</samp> hinzu.',
+	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Dieser Block ist für Werbung mit einer <u>Breite</u> von <b>300px</b> geeignet.<br />Wenn du benutzerdefinierte CSS-Stile verwenden/ändern möchtest, füge diese bitte in <samp>ext/paybas/pbwowext/styles/all/theme/pbwowext.css</samp> hinzu.',
 ));

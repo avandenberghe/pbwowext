@@ -48,8 +48,8 @@ $lang = array_merge($lang, array(
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
 	'PAYPAL_ALT'                        => 'Пожертвувати через PayPal',
-	'PBWOW_DONATE'						=> 'Пожертвувати на PBWoW',
-	'PBWOW_DONATE_SHORT'				=> 'Зробити пожертву на PBWoW',
+	'PBWOW_DONATE'						=> 'Пожертвувати на Avathar.be',
+	'PBWOW_DONATE_SHORT'				=> 'Зробити пожертву на Avathar.be',
 	'PBWOW_DONATE_EXPLAIN'				=> 'PBWoW є 100% безкоштовним. Це хобі-проєкт, на який я витрачаю свій час та гроші, просто заради задоволення. Якщо вам подобається PBWoW, будь ласка, розгляньте можливість зробити пожертву. Я буду дуже вдячний. Без жодних зобов&#39;язань.',
 
 	// CONFIG //
@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 
 	'PBWOW_VIDEOBG'						=> 'Налаштування фону (відео)',
 	'PBWOW_VIDEOBG_ENABLE'				=> 'Увімкнути анімовані відеофони',
-	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'Деякі стилі PBWoW підтримують спеціальні анімовані відеофони (не всі). Ви можете увімкнути їх для чудового ефекту, або вимкнути для економії пропускної здатності (або якщо у вас виникають проблеми).',
+	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'Наступні стилі PBWoW підтримують анімовані відеофони: Battlecry, Diablo, Garrison, Heroes, Legion, Pandaria, TBC, Tribute, Warlords, WotLK та Xmas. Ви можете увімкнути їх для чудового ефекту, або вимкнути для економії пропускної здатності (або якщо у вас виникають проблеми).',
 	'PBWOW_VIDEOBG_ALLPAGES'			=> 'Відображати відеофони на всіх сторінках?',
 	'PBWOW_VIDEOBG_ALLPAGES_EXPLAIN'	=> 'За замовчуванням PBWoW завантажує відеофони (якщо доступні) тільки на сторінках <u>index.php</u>. Ви можете увімкнути їх для всіх сторінок, але це може вплинути на швидкість перегляду ваших відвідувачів (але загалом не на пропускну здатність вашого сервера, оскільки вони кешуються локально). [застосовується лише якщо відео увімкнено]',
 
@@ -93,5 +93,5 @@ $lang = array_merge($lang, array(
 	'PBWOW_ADS_INDEX_ENABLE'			=> 'Увімкнути рекламу на головній сторінці',
 	'PBWOW_ADS_INDEX_ENABLE_EXPLAIN'	=> 'Увімкнення цього створить вузький рекламний блок на головній сторінці форуму (потрібне розширення Останні теми).',
 	'PBWOW_ADS_INDEX_CODE'				=> 'Код реклами на головній сторінці',
-	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Цей блок підходить для реклами з <u>шириною</u>: <b>300px</b>.<br />Якщо ви хочете використати/змінити власні CSS-стилі, будь ласка, додайте їх до <samp>ext/paybas/pbwowext/styles/pbwow3/theme/pbwowext.css</samp>',
+	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Цей блок підходить для реклами з <u>шириною</u>: <b>300px</b>.<br />Якщо ви хочете використати/змінити власні CSS-стилі, будь ласка, додайте їх до <samp>ext/paybas/pbwowext/styles/all/theme/pbwowext.css</samp>',
 ));

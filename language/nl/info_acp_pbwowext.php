@@ -48,8 +48,8 @@ $lang = array_merge($lang, array(
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
 	'PAYPAL_ALT'                        => 'Doneer via PayPal',
-	'PBWOW_DONATE'						=> 'Doneer aan PBWoW',
-	'PBWOW_DONATE_SHORT'				=> 'Doe een donatie aan PBWoW',
+	'PBWOW_DONATE'						=> 'Doneer aan Avathar.be',
+	'PBWOW_DONATE_SHORT'				=> 'Doe een donatie aan Avathar.be',
 	'PBWOW_DONATE_EXPLAIN'				=> 'PBWoW is 100% gratis. Het is een hobbyproject waar ik mijn tijd en geld aan besteed, puur voor de lol. Als je het leuk vindt om PBWoW te gebruiken, overweeg dan om een donatie te doen. Dat zou ik zeer waarderen. Geheel vrijblijvend.',
 
 	// CONFIG //
@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 
 	'PBWOW_VIDEOBG'						=> '(Video-)achtergrondinstellingen',
 	'PBWOW_VIDEOBG_ENABLE'				=> 'Geanimeerde video-achtergronden inschakelen',
-	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'Sommige PBWoW-stijlen ondersteunen speciale geanimeerde video-achtergronden (niet allemaal). U kunt deze inschakelen voor een gaaf effect, of uitschakelen om bandbreedte te besparen (of als u problemen ondervindt).',
+	'PBWOW_VIDEOBG_ENABLE_EXPLAIN'		=> 'De volgende PBWoW-stijlen ondersteunen geanimeerde video-achtergronden: Battlecry, Diablo, Garrison, Heroes, Legion, Pandaria, TBC, Tribute, Warlords, WotLK en Xmas. U kunt deze inschakelen voor een gaaf effect, of uitschakelen om bandbreedte te besparen (of als u problemen ondervindt).',
 	'PBWOW_VIDEOBG_ALLPAGES'			=> 'Video-achtergronden op alle pagina\'s weergeven?',
 	'PBWOW_VIDEOBG_ALLPAGES_EXPLAIN'	=> 'Standaard laadt PBWoW de video-achtergronden (indien beschikbaar) alleen op <u>index.php</u>-pagina\'s. U kunt ze voor alle pagina\'s inschakelen, maar dit kan de surfsnelheid van uw bezoekers beinvloeden (maar over het algemeen niet uw serverbandbreedte, omdat ze lokaal worden gecacht). [geldt alleen als video is ingeschakeld]',
 
@@ -93,5 +93,5 @@ $lang = array_merge($lang, array(
 	'PBWOW_ADS_INDEX_ENABLE'			=> 'Indexadvertentie inschakelen',
 	'PBWOW_ADS_INDEX_ENABLE_EXPLAIN'	=> 'Het inschakelen van deze advertentie genereert een smal advertentieblok op de forumindexpagina (vereist de Recent Topics extensie).',
 	'PBWOW_ADS_INDEX_CODE'				=> 'Indexadvertentie-code',
-	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Dit blok is geschikt voor advertenties met een <u>breedte</u> van: <b>300px</b>.<br />Als u aangepaste CSS-opmaak wilt gebruiken of wijzigen, voeg deze dan toe aan <samp>ext/paybas/pbwowext/styles/pbwow3/theme/pbwowext.css</samp>',
+	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Dit blok is geschikt voor advertenties met een <u>breedte</u> van: <b>300px</b>.<br />Als u aangepaste CSS-opmaak wilt gebruiken of wijzigen, voeg deze dan toe aan <samp>ext/paybas/pbwowext/styles/all/theme/pbwowext.css</samp>',
 ));
