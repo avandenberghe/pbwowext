@@ -38,15 +38,12 @@ $lang = array_merge($lang, array(
 	// Extension requirements
 	'EXTENSION_REQUIRES_330'		=> 'Detta tillägg kräver phpBB 3.3.0 eller högre.',
 
-
 	'LOG_PBWOW_CONFIG'			=> '<strong>PBWoW-inställningar ändrade</strong><br />&raquo; %s',
-
 
 	'PBWOW_DB_CHECK'					=> 'PBWoW-databaskontroll',
 	'PBWOW_DB_GOOD'						=> 'PBWoW-konfigurationstabell hittad (%s)',
 	'PBWOW_DB_BAD'						=> 'Ingen PBWoW-konfigurationstabell hittades. Kontrollera att tabellen (%s) finns i din phpBB-databas.',
 	'PBWOW_DB_BAD_EXPLAIN'				=> 'Försök att inaktivera och återaktivera tillägget PBWoW 3. Om det inte fungerar, inaktivera tillägget och radera data. Försök sedan aktivera det igen.',
-
 
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
@@ -68,12 +65,6 @@ $lang = array_merge($lang, array(
 	'PBWOW_LOGO_SIZE_EXPLAIN'			=> 'Exakta dimensioner för din logotypbild (bredd x höjd i pixlar).<br />Bilder större än 350 x 200 rekommenderas inte (på grund av responsiv layout).',
 	'PBWOW_LOGO_MARGINS'				=> 'Logotypens marginaler',
 	'PBWOW_LOGO_MARGINS_EXPLAIN'		=> 'Ställ in CSS-marginalerna för din logotyp. Detta ger dig mer kontroll över placeringen av din bild. Använd giltig CSS-notation, t.ex. <samp>10px 5px 25px 0</samp>.',
-
-	'PBWOW_AVATARS'						=> 'Spelavatarer',
-	'PBWOW_AVATARS_ENABLE'				=> 'Aktivera spelavatarer (och ikoner) för hela forumet',
-	'PBWOW_AVATARS_ENABLE_EXPLAIN'		=> 'Om aktiverat kommer PBWoW att visa en genererad spelavatar baserad på bbGuild-fältposter om användaren inte har en anpassad avatar konfigurerad.',
-	'PBWOW_SMALLRANKS_ENABLE'			=> 'Använd små rankbilder',
-	'PBWOW_SMALLRANKS_ENABLE_EXPLAIN'	=> 'Aktivera detta om du vill använda små rankbilder som överlagrar avataren. Aktivera inte detta om du använder större rankbilder.',
 
 	'PBWOW_TOPBAR'						=> 'Övre sidhuvudsfält',
 	'PBWOW_TOPBAR_ENABLE'				=> 'Aktivera det övre sidhuvudsfältet',

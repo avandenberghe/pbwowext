@@ -38,15 +38,12 @@ $lang = array_merge($lang, array(
 	// Extension requirements
 	'EXTENSION_REQUIRES_330'	=> 'Deze extensie vereist phpBB 3.3.0 of hoger.',
 
-
 	'LOG_PBWOW_CONFIG'			=> '<strong>PBWoW-instellingen gewijzigd</strong><br />&raquo; %s',
-
 
 	'PBWOW_DB_CHECK'					=> 'PBWoW Databasecontrole',
 	'PBWOW_DB_GOOD'						=> 'PBWoW-configuratietabel gevonden (%s)',
 	'PBWOW_DB_BAD'						=> 'Geen PBWoW-configuratietabel gevonden. Controleer of de tabel (%s) bestaat in uw phpBB-database.',
 	'PBWOW_DB_BAD_EXPLAIN'				=> 'Probeer de PBWoW 3 extensie uit te schakelen en opnieuw in te schakelen. Als dat niet werkt, schakel de extensie uit en verwijder de gegevens. Probeer deze vervolgens opnieuw in te schakelen.',
-
 
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
@@ -68,12 +65,6 @@ $lang = array_merge($lang, array(
 	'PBWOW_LOGO_SIZE_EXPLAIN'			=> 'Exacte afmetingen van uw logo-afbeelding (Breedte x Hoogte in pixels).<br />Afbeeldingen groter dan 350 x 200 worden afgeraden (vanwege responsieve lay-out).',
 	'PBWOW_LOGO_MARGINS'				=> 'Logo-marges',
 	'PBWOW_LOGO_MARGINS_EXPLAIN'		=> 'Stel de CSS-marges van uw logo in. Dit geeft meer controle over de positionering van uw afbeelding. Gebruik geldige CSS-opmaak, bijv. <samp>10px 5px 25px 0</samp>.',
-
-	'PBWOW_AVATARS'						=> 'Gaming-avatars',
-	'PBWOW_AVATARS_ENABLE'				=> 'Forumbrede gaming-avatars (en iconen) inschakelen',
-	'PBWOW_AVATARS_ENABLE_EXPLAIN'		=> 'Indien ingeschakeld, zal PBWoW een gegenereerde gaming-avatar weergeven op basis van bbGuild-veldgegevens als de gebruiker geen aangepaste avatar heeft ingesteld.',
-	'PBWOW_SMALLRANKS_ENABLE'			=> 'Kleine rang-afbeeldingen gebruiken',
-	'PBWOW_SMALLRANKS_ENABLE_EXPLAIN'	=> 'Schakel dit in als u kleine rang-afbeeldingen wilt gebruiken die over de avatar worden weergegeven. Schakel dit niet in als u grotere rang-afbeeldingen gebruikt.',
 
 	'PBWOW_TOPBAR'						=> 'Bovenste headerbalk',
 	'PBWOW_TOPBAR_ENABLE'				=> 'De bovenste headerbalk inschakelen',

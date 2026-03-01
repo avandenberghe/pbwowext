@@ -46,15 +46,12 @@ $lang = array_merge($lang, array(
 	// Extension requirements
 	'EXTENSION_REQUIRES_330'		=> 'Для этого расширения требуется phpBB 3.3.0 или выше.',
 
-
 	'LOG_PBWOW_CONFIG'			=> '<strong>Настройки PBWoW изменены</strong><br />&raquo; %s',
-
 
 	'PBWOW_DB_CHECK'					=> 'Проверка базы данных PBWoW',
 	'PBWOW_DB_GOOD'						=> 'Таблица конфигурации PBWoW найдена (%s)',
 	'PBWOW_DB_BAD'						=> 'Таблица конфигурации PBWoW не найдена. Убедитесь, что таблица (%s) существует в базе данных вашего форума phpBB.',
 	'PBWOW_DB_BAD_EXPLAIN'				=> 'Попробуйте отключить и снова включить расширение PBWoW 3. Если это не поможет, отключите расширение и удалите его данные. Затем попробуйте включить его снова.',
-
 
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
@@ -77,12 +74,6 @@ $lang = array_merge($lang, array(
 	'PBWOW_LOGO_SIZE_EXPLAIN'			=> 'Точные размеры изображения вашего логотипа (Ширина x Высота в пикселях).<br />Изображения размером более 350 x 200 не рекомендуются (из-за адаптивной верстки).',
 	'PBWOW_LOGO_MARGINS'				=> 'Отступы логотипа',
 	'PBWOW_LOGO_MARGINS_EXPLAIN'		=> 'Установите CSS-отступы для вашего логотипа. Это даст больше контроля над расположением изображения. Используйте корректный CSS-синтаксис, например <samp>10px 5px 25px 0</samp>.',
-
-	'PBWOW_AVATARS'						=> 'Игровые аватары',
-	'PBWOW_AVATARS_ENABLE'				=> 'Включить поддержку игровых аватаров (и значков)',
-	'PBWOW_AVATARS_ENABLE_EXPLAIN'		=> 'Если включено, PBWoW будет отображать сгенерированный игровой аватар на основе данных bbGuild, если у пользователя не установлен собственный аватар.',
-	'PBWOW_SMALLRANKS_ENABLE'			=> 'Использовать маленькие изображения рангов',
-	'PBWOW_SMALLRANKS_ENABLE_EXPLAIN'	=> 'Включите эту опцию, если хотите использовать маленькие изображения рангов, которые накладываются на аватар. Не включайте эту опцию, если вы используете большие изображения рангов.',
 
 	'PBWOW_TOPBAR'						=> 'Верхняя панель заголовка',
 	'PBWOW_TOPBAR_ENABLE'				=> 'Включить верхнюю панель заголовка',

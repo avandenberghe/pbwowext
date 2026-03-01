@@ -56,10 +56,6 @@ class pbwowstyle
 	protected $pbwow_chars_table;
 	protected $pbwow_config;
 
-	protected $ranks;
-	protected $avatars_enabled;
-	protected $avatars_enabled_full;
-	protected $tp_ext_enabled;
 
 	/**
 	 * pbwowstyle constructor.
@@ -132,9 +128,6 @@ class pbwowstyle
 		$fixedbg = $pbwow_config['fixedbg'] ?? false;
 		$ads_index_enable = $pbwow_config['ads_index_enable'] ?? false;
 		$ads_index_code = $pbwow_config['ads_index_code'] ?? '';
-		$avatars_enable = $pbwow_config['avatars_enable'] ?? false;
-		$smallranks_enable = $pbwow_config['smallranks_enable'] ?? false;
-
 		$tpl_vars = array();
 		$body_class = ' pbwow-ext';
 
@@ -212,8 +205,6 @@ class pbwowstyle
 		$tpl_vars += array(
 			'HEADERLINKS_CODE' 	    => ($headerlinks_enable && $headerlinks_code) ? str_replace('&', '&amp;', html_entity_decode($headerlinks_code)) : false,
 			'ADS_INDEX_CODE' 	    => ($ads_index_enable && $ads_index_code) ? str_replace('&', '&amp;', html_entity_decode($ads_index_code)) : false,
-			'S_PBWOW_AVATARS'	    => $avatars_enable,
-			'S_PBWOW_SMALL_RANKS' 	=> $smallranks_enable,
 		);
 
 		// Assign vars

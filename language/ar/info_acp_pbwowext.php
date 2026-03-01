@@ -46,15 +46,12 @@ $lang = array_merge($lang, array(
 	// Extension requirements
 	'EXTENSION_REQUIRES_330'		=> 'تتطلب هذه الإضافة phpBB 3.3.0 أو أحدث.',
 
-
 	'LOG_PBWOW_CONFIG'			=> '<strong>تم تعديل إعدادات PBWoW</strong><br />&raquo; %s',
-
 
 	'PBWOW_DB_CHECK'					=> 'فحص قاعدة بيانات PBWoW',
 	'PBWOW_DB_GOOD'						=> 'تم العثور على جدول إعدادات PBWoW (%s)',
 	'PBWOW_DB_BAD'						=> 'لم يتم العثور على جدول إعدادات PBWoW. تأكد من وجود الجدول (%s) في قاعدة بيانات phpBB الخاصة بك.',
 	'PBWOW_DB_BAD_EXPLAIN'				=> 'حاول تعطيل إضافة PBWoW 3 ثم إعادة تفعيلها. إذا لم ينجح ذلك، قم بتعطيل الإضافة وحذف بياناتها. ثم حاول تفعيلها مرة أخرى.',
-
 
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
@@ -76,12 +73,6 @@ $lang = array_merge($lang, array(
 	'PBWOW_LOGO_SIZE_EXPLAIN'			=> 'الأبعاد الدقيقة لصورة شعارك (العرض × الارتفاع بالبكسل).<br />لا يُنصح بصور أكبر من 350 × 200 (بسبب التصميم المتجاوب).',
 	'PBWOW_LOGO_MARGINS'				=> 'هوامش الشعار',
 	'PBWOW_LOGO_MARGINS_EXPLAIN'		=> 'قم بتعيين هوامش CSS لشعارك. سيمنحك هذا مزيداً من التحكم في موضع صورتك. استخدم ترميز CSS صالح، مثال: <samp>10px 5px 25px 0</samp>.',
-
-	'PBWOW_AVATARS'						=> 'صور رمزية للألعاب',
-	'PBWOW_AVATARS_ENABLE'				=> 'تفعيل الصور الرمزية للألعاب (والأيقونات) على مستوى المنتدى',
-	'PBWOW_AVATARS_ENABLE_EXPLAIN'		=> 'عند التفعيل، سيعرض PBWoW صورة رمزية مولّدة من الألعاب بناءً على إدخالات حقل bbGuild إذا لم يكن لدى المستخدم صورة رمزية مخصصة.',
-	'PBWOW_SMALLRANKS_ENABLE'			=> 'استخدام صور رتب صغيرة',
-	'PBWOW_SMALLRANKS_ENABLE_EXPLAIN'	=> 'فعّل هذا إذا كنت ترغب في استخدام صور رتب صغيرة تظهر فوق الصورة الرمزية. لا تفعّل هذا إذا كنت تستخدم صور رتب كبيرة.',
 
 	'PBWOW_TOPBAR'						=> 'الشريط العلوي',
 	'PBWOW_TOPBAR_ENABLE'				=> 'تفعيل الشريط العلوي',

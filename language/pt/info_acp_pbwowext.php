@@ -46,15 +46,12 @@ $lang = array_merge($lang, array(
 	// Extension requirements
 	'EXTENSION_REQUIRES_330'		=> 'Esta extensão requer o phpBB 3.3.0 ou superior.',
 
-
 	'LOG_PBWOW_CONFIG'			=> '<strong>Definições do PBWoW alteradas</strong><br />&raquo; %s',
-
 
 	'PBWOW_DB_CHECK'					=> 'Verificação da base de dados do PBWoW',
 	'PBWOW_DB_GOOD'						=> 'Tabela de configuração do PBWoW encontrada (%s)',
 	'PBWOW_DB_BAD'						=> 'Não foi encontrada nenhuma tabela de configuração do PBWoW. Certifique-se de que a tabela (%s) existe na base de dados do seu fórum phpBB.',
 	'PBWOW_DB_BAD_EXPLAIN'				=> 'Tente desativar e reativar a extensão PBWoW 3. Se isso não funcionar, desative a extensão e elimine os dados. Em seguida, tente ativá-la novamente.',
-
 
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
@@ -77,12 +74,6 @@ $lang = array_merge($lang, array(
 	'PBWOW_LOGO_SIZE_EXPLAIN'			=> 'Dimensões exatas da imagem do seu logótipo (Largura x Altura em píxeis).<br />Imagens superiores a 350 x 200 não são recomendadas (devido ao layout responsivo).',
 	'PBWOW_LOGO_MARGINS'				=> 'Margens do logótipo',
 	'PBWOW_LOGO_MARGINS_EXPLAIN'		=> 'Defina as margens CSS do seu logótipo. Isto permitirá um maior controlo sobre o posicionamento da sua imagem. Utilize marcação CSS válida, por exemplo <samp>10px 5px 25px 0</samp>.',
-
-	'PBWOW_AVATARS'						=> 'Avatares de jogo',
-	'PBWOW_AVATARS_ENABLE'				=> 'Ativar avatares de jogo em todo o fórum (e ícones)',
-	'PBWOW_AVATARS_ENABLE_EXPLAIN'		=> 'Se ativado, o PBWoW apresentará um avatar de jogo gerado com base nos campos do bbGuild, caso o utilizador não tenha um avatar personalizado configurado.',
-	'PBWOW_SMALLRANKS_ENABLE'			=> 'Utilizar imagens de classificação pequenas',
-	'PBWOW_SMALLRANKS_ENABLE_EXPLAIN'	=> 'Ative esta opção se pretender utilizar imagens de classificação pequenas que se sobrepõem ao avatar. Não ative esta opção se estiver a utilizar imagens de classificação maiores.',
 
 	'PBWOW_TOPBAR'						=> 'Barra superior do cabeçalho',
 	'PBWOW_TOPBAR_ENABLE'				=> 'Ativar a barra superior do cabeçalho',

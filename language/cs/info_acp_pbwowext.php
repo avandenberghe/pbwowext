@@ -46,15 +46,12 @@ $lang = array_merge($lang, array(
 	// Extension requirements
 	'EXTENSION_REQUIRES_330'		=> 'Toto rozšíření vyžaduje phpBB 3.3.0 nebo novější.',
 
-
 	'LOG_PBWOW_CONFIG'			=> '<strong>Změněno nastavení PBWoW</strong><br />&raquo; %s',
-
 
 	'PBWOW_DB_CHECK'					=> 'Kontrola databáze PBWoW',
 	'PBWOW_DB_GOOD'						=> 'Konfigurační tabulka PBWoW nalezena (%s)',
 	'PBWOW_DB_BAD'						=> 'Konfigurační tabulka PBWoW nebyla nalezena. Ujistěte se, že tabulka (%s) existuje ve vaší databázi phpBB.',
 	'PBWOW_DB_BAD_EXPLAIN'				=> 'Zkuste deaktivovat a znovu aktivovat rozšíření PBWoW 3. Pokud to nepomůže, deaktivujte rozšíření a smažte data. Poté zkuste rozšíření znovu aktivovat.',
-
 
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
@@ -76,12 +73,6 @@ $lang = array_merge($lang, array(
 	'PBWOW_LOGO_SIZE_EXPLAIN'			=> 'Přesné rozměry obrázku loga (šířka × výška v pixelech).<br />Obrázky větší než 350 × 200 se nedoporučují (kvůli responzivnímu rozložení).',
 	'PBWOW_LOGO_MARGINS'				=> 'Okraje loga',
 	'PBWOW_LOGO_MARGINS_EXPLAIN'		=> 'Nastavte CSS okraje vašeho loga. To vám dá větší kontrolu nad umístěním obrázku. Použijte platný CSS zápis, např. <samp>10px 5px 25px 0</samp>.',
-
-	'PBWOW_AVATARS'						=> 'Herní avatary',
-	'PBWOW_AVATARS_ENABLE'				=> 'Povolit herní avatary (a ikony) pro celé fórum',
-	'PBWOW_AVATARS_ENABLE_EXPLAIN'		=> 'Je-li povoleno, PBWoW zobrazí vygenerovaný herní avatar na základě záznamů bbGuild, pokud uživatel nemá nastaven vlastní avatar.',
-	'PBWOW_SMALLRANKS_ENABLE'			=> 'Použít malé obrázky hodností',
-	'PBWOW_SMALLRANKS_ENABLE_EXPLAIN'	=> 'Povolte tuto možnost, pokud chcete používat malé obrázky hodností překrývající avatar. Nepovolujte tuto možnost, pokud používáte větší obrázky hodností.',
 
 	'PBWOW_TOPBAR'						=> 'Horní lišta záhlaví',
 	'PBWOW_TOPBAR_ENABLE'				=> 'Povolit horní lištu záhlaví',

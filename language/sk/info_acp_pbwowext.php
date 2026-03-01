@@ -46,15 +46,12 @@ $lang = array_merge($lang, array(
 	// Extension requirements
 	'EXTENSION_REQUIRES_330'		=> 'Toto rozšírenie vyžaduje phpBB 3.3.0 alebo novší.',
 
-
 	'LOG_PBWOW_CONFIG'			=> '<strong>Zmenené nastavenia PBWoW</strong><br />&raquo; %s',
-
 
 	'PBWOW_DB_CHECK'					=> 'Kontrola databázy PBWoW',
 	'PBWOW_DB_GOOD'						=> 'Konfiguračná tabuľka PBWoW nájdená (%s)',
 	'PBWOW_DB_BAD'						=> 'Konfiguračná tabuľka PBWoW nebola nájdená. Uistite sa, že tabuľka (%s) existuje vo vašej databáze phpBB.',
 	'PBWOW_DB_BAD_EXPLAIN'				=> 'Skúste deaktivovať a znovu aktivovať rozšírenie PBWoW 3. Ak to nepomôže, deaktivujte rozšírenie a vymažte údaje. Potom skúste rozšírenie znovu aktivovať.',
-
 
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
@@ -76,12 +73,6 @@ $lang = array_merge($lang, array(
 	'PBWOW_LOGO_SIZE_EXPLAIN'			=> 'Presné rozmery obrázku loga (šírka × výška v pixeloch).<br />Obrázky väčšie ako 350 × 200 sa neodporúčajú (kvôli responzívnemu rozloženiu).',
 	'PBWOW_LOGO_MARGINS'				=> 'Okraje loga',
 	'PBWOW_LOGO_MARGINS_EXPLAIN'		=> 'Nastavte CSS okraje vášho loga. To vám dá väčšiu kontrolu nad umiestnením obrázku. Použite platný CSS zápis, napr. <samp>10px 5px 25px 0</samp>.',
-
-	'PBWOW_AVATARS'						=> 'Herné avatary',
-	'PBWOW_AVATARS_ENABLE'				=> 'Povoliť herné avatary (a ikony) pre celé fórum',
-	'PBWOW_AVATARS_ENABLE_EXPLAIN'		=> 'Ak je povolené, PBWoW zobrazí vygenerovaný herný avatar na základe záznamov bbGuild, ak používateľ nemá nastavený vlastný avatar.',
-	'PBWOW_SMALLRANKS_ENABLE'			=> 'Použiť malé obrázky hodností',
-	'PBWOW_SMALLRANKS_ENABLE_EXPLAIN'	=> 'Povoľte túto možnosť, ak chcete používať malé obrázky hodností prekrývajúce avatar. Nepovoľujte túto možnosť, ak používate väčšie obrázky hodností.',
 
 	'PBWOW_TOPBAR'						=> 'Horná lišta hlavičky',
 	'PBWOW_TOPBAR_ENABLE'				=> 'Povoliť hornú lištu hlavičky',

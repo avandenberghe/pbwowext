@@ -38,15 +38,12 @@ $lang = array_merge($lang, array(
 	// Extension requirements
 	'EXTENSION_REQUIRES_330'		=> 'This extension requires phpBB 3.3.0 or higher.',
 
-
 	'LOG_PBWOW_CONFIG'			=> '<strong>Altered PBWoW settings</strong><br />&raquo; %s',
-
 
 	'PBWOW_DB_CHECK'					=> 'PBWoW Database Check',
 	'PBWOW_DB_GOOD'						=> 'PBWoW configuration table found (%s)',
 	'PBWOW_DB_BAD'						=> 'No PBWoW configuration table found. Make sure that the table (%s) exists in your phpBB database.',
 	'PBWOW_DB_BAD_EXPLAIN'				=> 'Try to disable and re-enable the PBWoW 3 extension. If that does not work, disable the extension and delete the data. Then try enabling it again.',
-
 
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
@@ -68,12 +65,6 @@ $lang = array_merge($lang, array(
 	'PBWOW_LOGO_SIZE_EXPLAIN'			=> 'Exact dimensions of your logo image (Width x Height in pixels).<br />Images of more than 350 x 200 are not advised (due to responsive layout).',
 	'PBWOW_LOGO_MARGINS'				=> 'Logo margins',
 	'PBWOW_LOGO_MARGINS_EXPLAIN'		=> 'Set the CSS margins of your logo. This will give more control over the positioning of your image. Use valid CSS markup, e.g. <samp>10px 5px 25px 0</samp>.',
-
-	'PBWOW_AVATARS'						=> 'Gaming Avatars',
-	'PBWOW_AVATARS_ENABLE'				=> 'Enable board-wide gaming avatars (and icons)',
-	'PBWOW_AVATARS_ENABLE_EXPLAIN'		=> 'If enabled, pbWoW will display a generated gaming avatar based on bbGuild field entries if the user has no custom avatar configured.',
-	'PBWOW_SMALLRANKS_ENABLE'			=> 'Use small rank-images',
-	'PBWOW_SMALLRANKS_ENABLE_EXPLAIN'	=> 'Enable this if you wish to use small rank-images that overlay the avatar. Don&#39;t enable this if you are using larger rank-images.',
 
 	'PBWOW_TOPBAR'						=> 'Top Header-Bar',
 	'PBWOW_TOPBAR_ENABLE'				=> 'Enable the top header-bar',

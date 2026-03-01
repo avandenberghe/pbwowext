@@ -3,11 +3,14 @@
 ##### 3.3.0 01/03/2026
 - [FIX] Fix `\phpbb\db\tools\tools` type hint to `tools_interface` for phpBB 3.3 compatibility
 - [FIX] Replace deprecated `extract()` with explicit variable access in pbwowstyle
-- [FIX] Enable SSL certificate verification in cURL requests
-- [FIX] Fix CURLOPT_FOLLOWLOCATION syntax bug (comma instead of `=>`)
 - [FIX] Replace deprecated `sizeof()` with `count()`
-- [FIX] Fix deprecated `crin the repo, create a new branch eate_extension_metadata_manager()` usage
+- [FIX] Fix deprecated `create_extension_metadata_manager()` usage
 - [NEW] Add `ext.php` version gate requiring phpBB 3.3.0+
+- [NEW] Add 12 language translations (ar, cs, de, de_x_sie, es, es_x_tu, nl, pt, ru, sk, sv, uk)
+- [DEL] Remove custom ACP version checker (redundant with phpBB 3.3 built-in)
+- [DEL] Remove gaming avatars feature (dead code since battle.net removal in v3.2.0)
+- [DEL] Remove cURL wrapper class (`core/admin.php`)
+- [DEL] Remove Travis CI configuration
 - [CHG] Minimum PHP version raised to 7.1.3
 - [CHG] Minimum phpBB version raised to 3.3.0
 

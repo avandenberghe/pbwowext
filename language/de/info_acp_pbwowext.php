@@ -26,15 +26,12 @@ $lang = array_merge($lang, array(
 	// Extension requirements
 	'EXTENSION_REQUIRES_330'		=> 'Diese Erweiterung erfordert phpBB 3.3.0 oder höher.',
 
-
 	'LOG_PBWOW_CONFIG'			=> '<strong>PBWoW-Einstellungen geändert</strong><br />&raquo; %s',
-
 
 	'PBWOW_DB_CHECK'					=> 'PBWoW Datenbankprüfung',
 	'PBWOW_DB_GOOD'						=> 'PBWoW-Konfigurationstabelle gefunden (%s)',
 	'PBWOW_DB_BAD'						=> 'Keine PBWoW-Konfigurationstabelle gefunden. Stelle sicher, dass die Tabelle (%s) in deiner phpBB-Datenbank vorhanden ist.',
 	'PBWOW_DB_BAD_EXPLAIN'				=> 'Versuche die PBWoW 3 Erweiterung zu deaktivieren und erneut zu aktivieren. Wenn das nicht funktioniert, deaktiviere die Erweiterung und lösche die Daten. Versuche sie dann erneut zu aktivieren.',
-
 
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
@@ -56,12 +53,6 @@ $lang = array_merge($lang, array(
 	'PBWOW_LOGO_SIZE_EXPLAIN'			=> 'Exakte Abmessungen deines Logo-Bildes (Breite x Höhe in Pixeln).<br />Bilder größer als 350 x 200 werden nicht empfohlen (wegen des responsiven Layouts).',
 	'PBWOW_LOGO_MARGINS'				=> 'Logo-Abstände',
 	'PBWOW_LOGO_MARGINS_EXPLAIN'		=> 'Lege die CSS-Abstände (Margins) deines Logos fest. Dies ermöglicht eine bessere Kontrolle über die Positionierung deines Bildes. Verwende gültige CSS-Angaben, z.B. <samp>10px 5px 25px 0</samp>.',
-
-	'PBWOW_AVATARS'						=> 'Gaming-Avatare',
-	'PBWOW_AVATARS_ENABLE'				=> 'Forumweite Gaming-Avatare (und Icons) aktivieren',
-	'PBWOW_AVATARS_ENABLE_EXPLAIN'		=> 'Wenn aktiviert, zeigt PBWoW einen generierten Gaming-Avatar basierend auf bbGuild-Feldeinträgen an, sofern der Benutzer keinen eigenen Avatar eingestellt hat.',
-	'PBWOW_SMALLRANKS_ENABLE'			=> 'Kleine Rangbilder verwenden',
-	'PBWOW_SMALLRANKS_ENABLE_EXPLAIN'	=> 'Aktiviere dies, wenn du kleine Rangbilder verwenden möchtest, die den Avatar überlagern. Aktiviere dies nicht, wenn du größere Rangbilder verwendest.',
 
 	'PBWOW_TOPBAR'						=> 'Obere Kopfleiste',
 	'PBWOW_TOPBAR_ENABLE'				=> 'Obere Kopfleiste aktivieren',

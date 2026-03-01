@@ -8,21 +8,19 @@ phpBB 3.3 Extension to enhance the PBWoW 3 style with additional functionality.
 
 ## Features
 - ACP module features:
-  - Version update checking
   - Compatibility and config check, to see if PBWoW 3 has been configured correctly
   - Custom logo settings (enable/disable, url, size, margins)
   - Custom header-bar (enable/disable, content, fixed to top)
   - Custom header-box links (enable/disable, content)
   - Video background settings (enable/disable, display on all pages or index only, fixed position)
-  - Gaming avatar and rank settings
+  - Index advertisement block (for Recent Topics extension)
 
 #### Requirements
 - phpBB 3.3.0 or higher
 - PHP 7.1.3 or higher
 
 #### Languages supported
-- English
-- French
+- Arabic, Czech, Dutch, English, French, German, German (formal), Portuguese, Russian, Slovak, Spanish, Spanish (informal), Swedish, Ukrainian
 
 ## Installation
 1. [Download the latest release](https://www.avathar.be/forum/app.php/dlext/details?df_id=37) and unzip it.

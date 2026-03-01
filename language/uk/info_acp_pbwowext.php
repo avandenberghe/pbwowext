@@ -38,15 +38,12 @@ $lang = array_merge($lang, array(
 	// Extension requirements
 	'EXTENSION_REQUIRES_330'		=> 'Це розширення потребує phpBB 3.3.0 або новіше.',
 
-
 	'LOG_PBWOW_CONFIG'			=> '<strong>Змінено налаштування PBWoW</strong><br />&raquo; %s',
-
 
 	'PBWOW_DB_CHECK'					=> 'Перевірка бази даних PBWoW',
 	'PBWOW_DB_GOOD'						=> 'Таблицю конфігурації PBWoW знайдено (%s)',
 	'PBWOW_DB_BAD'						=> 'Таблицю конфігурації PBWoW не знайдено. Переконайтеся, що таблиця (%s) існує у вашій базі даних phpBB.',
 	'PBWOW_DB_BAD_EXPLAIN'				=> 'Спробуйте вимкнути та знову увімкнути розширення PBWoW 3. Якщо це не допоможе, вимкніть розширення та видаліть дані. Потім спробуйте увімкнути його знову.',
-
 
 	'PBWOW_DONATE_URL'                  => 'https://www.avathar.be/forum/app.php/page/donate',
 	'PAYPAL_IMAGE_URL'                  => 'https://www.paypalobjects.com/webstatic/en_US/i/btn/png/silver-pill-paypal-26px.png',
@@ -68,12 +65,6 @@ $lang = array_merge($lang, array(
 	'PBWOW_LOGO_SIZE_EXPLAIN'			=> 'Точні розміри зображення логотипу (ширина x висота в пікселях).<br />Зображення більші за 350 x 200 не рекомендуються (через адаптивну верстку).',
 	'PBWOW_LOGO_MARGINS'				=> 'Відступи логотипу',
 	'PBWOW_LOGO_MARGINS_EXPLAIN'		=> 'Встановіть CSS-відступи вашого логотипу. Це дасть більше контролю над позиціонуванням зображення. Використовуйте дійсний CSS-запис, наприклад <samp>10px 5px 25px 0</samp>.',
-
-	'PBWOW_AVATARS'						=> 'Ігрові аватари',
-	'PBWOW_AVATARS_ENABLE'				=> 'Увімкнути ігрові аватари (та іконки) для всього форуму',
-	'PBWOW_AVATARS_ENABLE_EXPLAIN'		=> 'Якщо увімкнено, PBWoW відображатиме згенерований ігровий аватар на основі записів поля bbGuild, якщо користувач не має налаштованого власного аватара.',
-	'PBWOW_SMALLRANKS_ENABLE'			=> 'Використовувати малі зображення рангів',
-	'PBWOW_SMALLRANKS_ENABLE_EXPLAIN'	=> 'Увімкніть це, якщо бажаєте використовувати малі зображення рангів, що накладаються на аватар. Не вмикайте це, якщо ви використовуєте великі зображення рангів.',
 
 	'PBWOW_TOPBAR'						=> 'Верхня панель заголовку',
 	'PBWOW_TOPBAR_ENABLE'				=> 'Увімкнути верхню панель заголовку',
