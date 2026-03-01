@@ -2,7 +2,7 @@
 /**
  *
  * PBWoW 3.2. An extension for the phpBB Forum Software package.
- * French translation by Galixte (http://www.galixte.com)
+ * French translation by Galixte
  *
  * @copyright (c) 2015 PayBas
  * @license GNU General Public License, version 2 (GPL-2.0)
