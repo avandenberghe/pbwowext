@@ -154,7 +154,7 @@ body.fixedbg #video-background {
 /* Recent Topics Advertisement block customisations
 ---------------------------------------------------- */
 
-.advertisement, .misc-block.advertisement {
+.advertisement {
     margin: 10px auto;
     padding: 0;
     overflow: hidden;

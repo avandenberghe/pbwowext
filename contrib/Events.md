@@ -60,9 +60,10 @@ This section lists every phpBB event that PBWoW Extension subscribes to in order
 
 ### 2.1 PHP Events (`event/stylelistener.php`)
 
-| phpBB Core Event | Handler method | What it does |
+| Event | Handler method | What it does |
 |---|---|---|
-| `core.page_header` | `page_header()` | Calls `pbwowstyle::global_style_append()` on every page load — assigns all PBWoW template variables (logo, top-bar, video background, header links, advertisement block, body CSS class) |
+| `core.page_header` | `page_header()` | Calls `pbwowstyle::global_style_append()` on every page load — assigns all PBWoW template variables (logo, top-bar, video background, header links, body CSS class) |
+| `avathar.recenttopicsav.modify_ads_code` | `modify_ads_code()` | Provides the PBWoW ACP-configured advertisement block HTML to Recent Topics. If the PBWoW ad is enabled, sets `ads_index_code` so that Recent Topics renders it in the sidebar. Requires `avathar/recenttopicsav` ≥ 3.0.6. |
 
 ### 2.2 Template Events
 

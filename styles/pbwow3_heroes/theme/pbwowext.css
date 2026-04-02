@@ -160,7 +160,7 @@ body.fixedbg #video-background {
 /* Recent Topics Advertisement block customisations
 ---------------------------------------------------- */
 
-.advertisement, .misc-block.advertisement {
+.advertisement {
     padding: 0;
     background: none;
     border: none;

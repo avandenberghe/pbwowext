@@ -1,5 +1,10 @@
 ## Changelog
 
+##### 3.3.1 02/04/2026
+- [NEW] Listen to `avathar.recenttopicsav.modify_ads_code` event to provide advertisement block content to Recent Topics instead of assigning `ADS_INDEX_CODE` directly (#26)
+- [CHG] Minimum PHP version raised to 8.1
+- [FIX] Remove redundant `.misc-block.advertisement` CSS rule — covered by avathar/recenttopicsav
+
 ##### 3.3.0 01/03/2026
 - [FIX] Fix `\phpbb\db\tools\tools` type hint to `tools_interface` for phpBB 3.3 compatibility
 - [FIX] Replace deprecated `extract()` with explicit variable access in pbwowstyle
