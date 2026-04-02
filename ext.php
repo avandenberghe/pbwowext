@@ -11,18 +11,23 @@ namespace paybas\pbwowext;
 
 class ext extends \phpbb\extension\base
 {
+	const MIN_PHP_VERSION = '8.1.0';
+	const MIN_PHPBB_VERSION = '3.3.0';
+
 	public function is_enableable()
 	{
-		$config = $this->container->get('config');
+		$errors = [];
 
-		if (phpbb_version_compare($config['version'], '3.3.0', '>='))
+		if (version_compare(PHP_VERSION, self::MIN_PHP_VERSION, '<'))
 		{
-			return true;
+			$errors[] = 'This extension requires PHP ' . self::MIN_PHP_VERSION . ' or higher. You are running PHP ' . PHP_VERSION . '.';
 		}
 
-		$language = $this->container->get('language');
-		$language->add_lang('info_acp_pbwowext', 'paybas/pbwowext');
+		if (phpbb_version_compare(PHPBB_VERSION, self::MIN_PHPBB_VERSION, '<'))
+		{
+			$errors[] = 'This extension requires phpBB ' . self::MIN_PHPBB_VERSION . ' or higher. You are running phpBB ' . PHPBB_VERSION . '.';
+		}
 
-		return array($language->lang('EXTENSION_REQUIRES_330'));
+		return empty($errors) ? true : $errors;
 	}
 }
