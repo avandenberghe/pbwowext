@@ -23,7 +23,7 @@ class release_3_2_schema extends \phpbb\db\migration\migration
 			'add_tables' => array(
 				$this->table_prefix . 'pbwowext_config' => array(
 					'COLUMNS' => array(
-						'config_name'		=> array('VCHAR', ''),
+						'config_name'		=> array('VCHAR:255', ''),
 						'config_value'		=> array('MTEXT', ''),
 						'config_default'	=> array('MTEXT', ''),
 					),

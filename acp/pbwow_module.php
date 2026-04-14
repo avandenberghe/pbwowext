@@ -212,7 +212,7 @@ class pbwow_module
 	/**
 	 * Get PBWoW config.
 	 */
-	function get_pbwow_config()
+	public function get_pbwow_config()
 	{
 		global $cache, $db;
 
@@ -236,7 +236,7 @@ class pbwow_module
 	/**
 	 * Set config value (and cache it). Creates missing config entry.
 	 */
-	function set_pbwow_config($config_name, $config_value)
+	public function set_pbwow_config($config_name, $config_value)
 	{
 		global $db;
 

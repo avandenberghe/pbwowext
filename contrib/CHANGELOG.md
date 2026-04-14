@@ -2,6 +2,10 @@
 
 ##### 3.3.2 14/04/2026
 - [NEW] Add PBTech-specific donate button styling with Heroes image and light-adapted blue gradient border
+- [FIX] Fix broken `sql_multi_insert` call in `release_3_2_data` migration
+- [FIX] Add missing VCHAR length specifier in `release_3_2_schema` migration
+- [FIX] Add missing `public` visibility to `get_pbwow_config()` and `set_pbwow_config()` in ACP module
+- [CHG] Clean up CSS comments across all style overrides
 
 ##### 3.3.1 02/04/2026
 - [NEW] Listen to `avathar.recenttopicsav.modify_ads_code` event to provide advertisement block content to Recent Topics instead of assigning `ADS_INDEX_CODE` directly (#26)

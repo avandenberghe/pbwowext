@@ -142,7 +142,6 @@ class release_3_2_data extends \phpbb\db\migration\migration
 
 		);
 
-		$sql = $this->db->sql_multi_insert($this->table_prefix . 'pbwowext_config', $sql_ary);
-		$this->sql_query($sql);
+		$this->db->sql_multi_insert($this->table_prefix . 'pbwowext_config', $sql_ary);
 	}
 }

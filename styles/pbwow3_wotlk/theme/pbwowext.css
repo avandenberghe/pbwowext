@@ -135,7 +135,7 @@ body.fixedbg #video-background {
     position: fixed;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0);
-    z-index: -1; /* Conflicts with page-body box-shadow, when enabled f*cks up chrome fixed pos */
+    z-index: -1; /* Conflicts with page-body box-shadow, breaks Chrome fixed positioning */
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
