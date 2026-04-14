@@ -2,9 +2,9 @@
     "name": "paybas/pbwowext",
     "type": "phpbb-extension",
     "description": "This extension enhances the pbWoW style",
-    "homepage": "https://github.com/avandenberghe/pbwowext",
-    "version": "3.3.1",
-    "time": "2026-04-02",
+    "homepage": "https://github.com/avatharbe/pbwowext",
+    "version": "3.3.2",
+    "time": "2026-04-14",
     "license": "GPL-2.0",
     "authors": [
         {

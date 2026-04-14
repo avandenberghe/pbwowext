@@ -1,5 +1,8 @@
 ## Changelog
 
+##### 3.3.2 14/04/2026
+- [NEW] Add PBTech-specific donate button styling with Heroes image and light-adapted blue gradient border
+
 ##### 3.3.1 02/04/2026
 - [NEW] Listen to `avathar.recenttopicsav.modify_ads_code` event to provide advertisement block content to Recent Topics instead of assigning `ADS_INDEX_CODE` directly (#26)
 - [CHG] Minimum PHP version raised to 8.1
